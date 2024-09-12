@@ -38,8 +38,8 @@ const Contact = () => {
               <div className=" flex bg-primary items-center px-6 py-4 rounded-3xl text-white">
                 <MdEmail className=" text-xl" />
                 <span className=" ml-4  cursor-pointer">
-                  <a href="mailto:prestigeeducationmlr@gmai.com">
-                    prestigeeducationmlr@gmai.com
+                  <a href="mailto:prestigeeducationmlr@gmail.com">
+                    prestigeeducationmlr@gmail.com
                   </a>
                 </span>
               </div>
