@@ -1,6 +1,7 @@
 import { Button } from "flowbite-react";
 import React from "react";
 import Reveal from "./RevealAnimation";
+import heroBg from '../assets/heroImg.png';
 
 const Hero = () => {
   const blurBOxStyles = {
@@ -13,7 +14,7 @@ const Hero = () => {
   const blurBoxClassesStyles =
     "text-center flex flex-col justify-center items-center py-3 px-4 text-white md:text-black ";
   return (
-    <div className={` bg-hero min-h-[100vh] bg-cover bg-right-bottom`}>
+    <div className={`  min-h-[100vh] bg-cover bg-right-bottom`} style={{backgroundImage:`url(${heroBg})`}}>
       <div className=" pt-24 flex flex-col px-5 items-center  justify-between md:items-start md:px-10 md:pt-40 lg:px-20 md:gap-y-2 lg:gap-y-5">
         <Reveal>
 
